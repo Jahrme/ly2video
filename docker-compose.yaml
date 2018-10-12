@@ -1,0 +1,7 @@
+version: "3"
+services:
+  ly2video:
+    image: ly2video:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
